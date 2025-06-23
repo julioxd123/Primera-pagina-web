@@ -1,0 +1,33 @@
+/* Agrega este bloque a tu archivo CSS o dentro de la etiqueta <style> en tu archivo HTML */
+/* Efecto vidrio opaco blanco para los paneles principales */
+
+#contenedor-busqueda {
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    padding: 0 !important;
+}
+
+#busqueda {
+    background: rgba(255,255,255,0.25); /* Más transparente */
+    border: 1px solid rgba(255,255,255,0.25);
+    box-shadow: none;
+    color: #222;
+    width: 340px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#panel-valores,
+#tabla-wrapper {
+    background: rgba(255,255,255,0.55); /* Más opaco */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.35);
+    box-shadow: 0 4px 24px 0 rgba(0,0,0,0.10);
+}
